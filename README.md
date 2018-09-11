@@ -14,8 +14,10 @@ IMPORTANT
 create three folders in desktop called" ImageData , iSeeYou and FacesOfPeople "
 after creating these directories it will be much more easier for the program to find and access to certain files.
 
-Handler is the main class that handles the database and image processing
-  just type the names untill it's done, then type "done"
+
+How to use
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Run Handler after following the instructions in README(which are really easy to implement). Then, be in front of your camera, write your name when the program asks it(in the prompt). After inputting one's name, the program will automatically capture 400 images in 5-7 seconds. After that the images go under some procedures such as face detection, resizing and hog generation. When you are done taking people into the database, just type "done" to the prompt. A classifier which is a multi-class support vector machine will be generated and trained. The trained version can be found as a function in the testTrainedClassifier class.
   
   
 
